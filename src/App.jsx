@@ -13,10 +13,12 @@ function App() {
         wordCount
     } = useWordGame(5)
     const [leaderboard, setLeaderboard] = useState({})
+    const [loading, setLoading] = useState(true)
     useEffect(() => {
         fetch("/api/message")
             .then(response => response.json())
             .then(data => setLeaderboard(data))
+            .then(() => setLoading(false))
     }, [])
     useEffect(() => console.log(leaderboard), [leaderboard])
     return (
@@ -37,7 +39,7 @@ function App() {
             </button>
             <h1>Word count: {wordCount}</h1>
             <h1>Leaderboard</h1>
-            {_.toPairs(leaderboard.leaderboard).map(entry => <h5>{entry[0]}: {entry[1]}</h5>)}
+            {!loading ? _.toPairs(leaderboard.leaderboard).map(entry => <h5>{entry[0]}: {entry[1]}</h5>) : "Loading..."}
         </div>
     )
 }
