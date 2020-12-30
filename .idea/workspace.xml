@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c638d546-5370-4fbd-8bf7-8f29444d18ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.funcignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/GetMessage/function.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/GetMessage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/GetMessage/sample.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/host.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/proxies.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/speed_typer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/speed_typer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/GetMessage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/GetMessage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609297043767</updated>
       <workItem from="1609297044938" duration="42000" />
-      <workItem from="1609297216183" duration="4417000" />
+      <workItem from="1609297216183" duration="5512000" />
     </task>
     <servers />
   </component>
