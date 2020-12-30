@@ -11,7 +11,7 @@ function App() {
         timeRemaining,
         startGame,
         wordCount
-    } = useWordGame(5)
+    } = useWordGame(20)
     const [leaderboard, setLeaderboard] = useState({})
     const [loading, setLoading] = useState(true)
     useEffect(() => {
