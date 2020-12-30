@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c638d546-5370-4fbd-8bf7-8f29444d18ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/speed_typer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/speed_typer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/GetMessage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/GetMessage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609297043767</updated>
       <workItem from="1609297044938" duration="42000" />
-      <workItem from="1609297216183" duration="5512000" />
+      <workItem from="1609297216183" duration="7318000" />
     </task>
     <servers />
   </component>

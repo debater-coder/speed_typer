@@ -1,4 +1,5 @@
 import React, {useState, useEffect, useRef} from "react"
+import _ from "lodash"
 import useWordGame from "./hooks/useWordGame"
 
 function App() {
@@ -35,6 +36,8 @@ function App() {
                 Start
             </button>
             <h1>Word count: {wordCount}</h1>
+            <h1>Leaderboard</h1>
+            {_.toPairs(leaderboard.leaderboard).map(entry => <h5>{entry[0]}: {entry[1]}</h5>)}
         </div>
     )
 }
